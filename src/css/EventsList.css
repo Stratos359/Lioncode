@@ -1,0 +1,40 @@
+
+.wrapper {
+    position: relative;
+    border: 1px solid lightgray;
+    margin: auto;
+    width: 430px;
+    height: auto;
+}
+
+.content {
+    height: 804px;
+    border: 1px solid lightgray;
+    background-color: #F9F9F9;
+}
+
+.content-header {
+    height: 82px;
+    background-color: #838992;
+}
+
+.content-header img {
+    width: 121px;
+    height: 35px;
+    margin-top: 24px;
+    margin-left: 36px;
+}
+
+.content-events {
+    height: 680px;
+    padding-top: 39px;
+    overflow-y: auto;
+}
+
+.seperator {
+    position: absolute;
+    margin-top: -2px;
+    width: 215px;
+    border: 2px solid #838992;
+    border-radius: 15%;
+}

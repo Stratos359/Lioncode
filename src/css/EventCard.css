@@ -1,0 +1,78 @@
+
+.link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.event-card {
+    width: 358px;
+    height: 95px;
+    border-radius: 15px;
+    margin-left: 36px;
+    margin-bottom: 19px;
+    padding-top: 14px;
+    padding-bottom: 2px;
+    background: linear-gradient(to right, #687487 4%, #FFFFFF 4% 96%);
+}
+
+.link:nth-child(even) .event-card {
+    background: linear-gradient(to right, #C5C5C5 4%, #FFFFFF 4% 96%);
+}
+
+.event-card-title {
+    height: 19px;
+    width: 261px;
+    margin-left: 22px;
+    font-family: "Fira Sans Extra Condensed", sans-serif;
+    font-size: 16px;
+    color: #707070;
+}
+
+.event-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.event-card-info-details {
+    height: 15px;
+    margin-top: 50px;
+    margin-left: 22px;
+    color: #707070;
+    font-family: "Fira Sans Extra Condensed", sans-serif;
+    font-size: 13px;
+}
+
+.event-location-icon {
+    vertical-align: middle;
+    width: 14.21px;
+    height: 18px;
+    margin-right: 2px;
+}
+
+.event-date-icon {
+    vertical-align: middle;
+    width: 14px;
+    height: 16.18px;
+    margin-right: 2px;
+}
+
+.event-card-info-city {
+    display: inline-block;
+    vertical-align: middle;
+    width: 51px;
+    height: 15px;
+}
+
+.event-card-info-date {
+    display: inline-block;
+    vertical-align: middle;
+    width: 215px;
+    height: 15px;
+}
+
+.event-arrow-icon {
+    height: 25px;
+    width: 19px;
+    margin-right: 10px;
+    margin-top: 9px;
+}

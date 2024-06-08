@@ -1,0 +1,60 @@
+.content-header-details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 82px;
+    background-color: #838992;
+}
+
+.content-topics {
+    height: 680px;
+    overflow-y: auto;
+    padding-top: 30px;
+}
+
+.return-icon {
+    width: 26px;
+    height: 26px;
+    margin-left: 40px;
+}
+
+.search-icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 40px;
+}
+
+.seperator-detail {
+    right: 0;
+}
+
+.selection {
+    display: flex;
+    align-items: center;
+    height: 35px;
+    font-family: "Fira Sans Extra Condensed", sans-serif;
+    font-size: 16px;
+    color: #707070;
+    border-bottom: 1px solid lightgray;
+    margin-top: 3px;
+}
+
+.schedule {
+    margin-left: 36px;
+}
+
+.tab1 {
+    margin-left: 57px;
+}
+
+.tab2, .tab3 {
+    margin-left: 65px;
+}
+
+.seperator-selection {
+        position: absolute;
+        margin-top: -2px;
+        width: 121px;
+        border: 2px solid #838992;
+        border-radius: 15%;
+}

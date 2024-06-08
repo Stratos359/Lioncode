@@ -1,0 +1,16 @@
+.skeleton-card {
+    width: 358px;
+    height: 95px;
+    border-radius: 15px;
+    margin-left: 36px;
+    margin-bottom: 19px;
+    padding-top: 14px;
+    padding-bottom: 2px;
+    background-color: rgb(221, 219, 219);
+    animation: scale 4s infinite;
+}
+
+@keyframes scale {
+    0% {transform: scale(0.9)}
+    100% {transform: scale(1)}
+}

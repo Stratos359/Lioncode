@@ -1,0 +1,75 @@
+.lesson {
+    width: 358px;
+    height: 55px;
+    margin-left: 36px;
+    padding-top: 14px;
+    background-color: #FFFFFF;
+    font-family: "Fira Sans Extra Condensed", sans-serif;
+    font-size: 13px;
+    color: #707070;
+    border-bottom: 2pt solid lightgray;
+}
+
+.lesson-title {
+    width: 261px;
+    height: 15px;
+    margin-left: 12px;
+}
+
+.lesson-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.lesson-info-details {
+    margin-top: 11px;
+    margin-left: 12px;
+    width: 290px;
+}
+
+.lesson-time-icon {
+    height: 14.5px;
+    width: 14.5px;
+    margin-right: 1px;
+    vertical-align: middle;
+}
+
+.lesson-date-icon {
+    height: 15px;
+    width: 13px;
+    margin-right: 3px;
+    margin-left: 18px;
+    vertical-align: middle;
+}
+
+.lesson-location-icon {
+    height: 15px;
+    width: 12px;
+    margin-right: 3px;
+    margin-left: 9px;
+    vertical-align: middle;
+}
+
+.lesson-info-time {
+    height: 15px;
+    width: 33px;
+}
+
+.lesson-info-date {
+    height: 15px;
+    width: 58px;
+    vertical-align: middle;
+}
+
+.lesson-info-location {
+    height: 15px;
+    width: 51px;
+    vertical-align: middle;
+}
+
+.lesson-user-icon {
+    height: 25px;
+    width: 25px;
+    margin-right: 9pt;
+    margin-top: -6pt;
+}

@@ -1,0 +1,20 @@
+.footer {
+    height: 128px;
+    background-color: #FFFFFF;
+    border: 1px solid lightgray;
+}
+
+.footer-event-icon {
+    width: 24px;
+    height: 20px;
+    margin-left: 94px;
+    margin-top: 56px;
+}
+
+.footer-topic-icon {
+    width: 21px;
+    height: 21px;
+    margin-left: 196px;
+    margin-top: 2px;
+    margin-right: 93px;
+}

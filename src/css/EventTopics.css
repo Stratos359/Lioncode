@@ -1,0 +1,51 @@
+
+.topic {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 358px;
+    height: 39px;
+    background-color: #838992;
+    margin-left: 36px;
+    margin-bottom: 2px;
+    font-family: "Fira Sans Extra Condensed", sans-serif;
+    font-size: 16px;
+    color: #FFFFFF;
+    cursor: pointer;
+    transition: background-color 0.2s ease, border-radius 0.2s ease;
+}
+
+.topic.open {
+    border-radius: 10px 10px 0 0;
+}
+
+.topic.clicked {
+    background-color: #687487;
+}
+
+.topic:last-child {
+    margin-bottom: 60px;
+}
+
+.topic-arrow {
+    display: inline-block;
+    width: 7px;
+    height: 7px;
+    margin-right: 25px;
+    margin-bottom: 3px;
+    border-right: 2.5px solid #FFFFFF;
+    border-bottom: 2.5px solid #FFFFFF;
+    transform: rotate(45deg);
+    transition: transform 0.3s ease;
+}
+
+.topic-arrow.open {
+    transform: rotate(225deg);
+}
+
+.topic-title {
+    width: 143px;
+    height: 19px;
+    margin-left: 12px;
+    margin-top: 3px;
+}
